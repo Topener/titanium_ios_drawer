@@ -1,6 +1,6 @@
 <Alloy>
   <NavigationWindow id="navwin">
-    <Window class="defaultWindow" id="mainWin">
+    <Window class="defaultWindow" id="mainWin" onTouchstart="handleTouchstart" onTouchmove="handleTouchmove">
       
       <LeftNavButton platform="ios">
         <ImageView class="menu" onClick="showMenu" direction="left" />

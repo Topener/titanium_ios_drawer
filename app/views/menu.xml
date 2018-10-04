@@ -1,0 +1,12 @@
+<Alloy>
+  <Window onOpen="handleOpen">
+    <View id="menuView">
+      <View id="menuPadding" />
+      <Label id="title" />
+      <View class="line" />
+      <Label id="second" class="menuItem" onClick="clickMenuItem"  controller="second" />
+
+    </View>
+    <View id="background" onClick="clickBackground" />
+  </Window>
+</Alloy>

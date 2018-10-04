@@ -1,0 +1,17 @@
+<Alloy>
+  <NavigationWindow id="navwin">
+    <Window class="defaultWindow" id="mainWin">
+      
+      <LeftNavButton platform="ios">
+        <ImageView class="menu" onClick="showMenu" direction="left" />
+      </LeftNavButton>
+
+      <RightNavButton platform="ios">
+        <ImageView class="menu" onClick="showMenu" direction="right" />
+      </RightNavButton>
+
+      <Label>Hello, World!</Label>
+
+    </Window>
+  </NavigationWindow>
+</Alloy>

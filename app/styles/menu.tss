@@ -1,0 +1,57 @@
+// drawerWidth defined in config.json, startposition based on that in alloy.js
+"#menuView": {
+  width: Alloy.CFG.drawerWidth,
+  backgroundColor: "#fff",
+  height: Ti.UI.FILL,
+  zIndex: 51,
+  layout: 'vertical'
+}
+
+"#background": {
+  zIndex: 50,
+  backgroundColor: "#55000000",
+  height: Ti.UI.FILL,
+  width: Ti.UI.FILL,
+  opacity: 0
+}
+
+"#menuPadding[if=Alloy.Globals.isIphoneX]": {
+  height: 64
+}
+
+"#menuPadding[if=!Alloy.Globals.isIphoneX]": {
+  height: 40
+}
+
+"Label": {
+  left: 20,
+  width: Ti.UI.SIZE
+}
+
+".line": {
+  height: 0.5,
+  top: 10,
+  left: 20,
+  backgroundColor: "#333",
+  right: 0
+}
+
+"#title": {
+  text: "Menu",
+  font: {
+    fontSize: 22
+  },
+  color: "#333"
+}
+
+".menuItem": {
+  font: {
+    fontSize: 18
+  },
+  color: "#333",
+  top: 20
+}
+
+"#second": {
+  text: "Second Controller"
+}

@@ -1,0 +1,8 @@
+"Window": {
+  title: 'Main Window'
+}
+
+".menu": {
+  image: "/images/menu.png",
+  height: 40
+}

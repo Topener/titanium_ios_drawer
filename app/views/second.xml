@@ -1,0 +1,5 @@
+<Alloy>
+  <Window class="defaultWindow">
+    <Label>Welcome to the second controller!</Label>
+  </Window>
+</Alloy>

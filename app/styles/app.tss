@@ -1,0 +1,12 @@
+".defaultWindow": {
+  barColor: '#222C34',
+  tintColor: "#fff",
+  backButtonTitle: "",
+  navTintColor: "#fff",
+  titleAttributes: {
+    color: "#fff",
+    font: {
+      fontSize: 22
+    }
+  }
+}

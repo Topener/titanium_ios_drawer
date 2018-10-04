@@ -1,6 +1,8 @@
 # Titanium iOS Drawer
 A sample app for displaying how to set up a drawer in iOS without the use of any modules. 
 
+<img src="https://raw.githubusercontent.com/Topener/titanium_ios_drawer/master/screenshots/menu_left.png" alt="drawing" width="300"/> <img src="https://raw.githubusercontent.com/Topener/titanium_ios_drawer/master/screenshots/menu_right.png" alt="drawing" width="300"/>
+
 All the slide-in functionality is visible in the `menu` controller. The only thing done from the `index` controller is creating the `menu` controller and opening it. 
 
 ```js
